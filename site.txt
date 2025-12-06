@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haylton Travel · Viagens, Dicas e Aluguel de Carros</title>
+  
+  <meta name="description" content="Haylton Travel: Recomendações, análises e as melhores dicas de viagem e aluguel de carros por Haylton José Lourenço." />
+  
+  <style>
+    /* Estilos Base */
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
+    
+    /* Sticky Header - OTIMIZAÇÃO */
+    header + nav { /* Seleciona a nav que vem depois do header */
+        position: sticky;
+        top: 0;
+        z-index: 1000; /* Garante que fique acima de outros elementos */
+        background: #fff; 
+        padding: 10px 20px; 
+        text-align: center; 
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Sombra mais forte para destaque */
+    }
+    
+    header { background: linear-gradient(135deg, #004aad, #0077ff); color: white; padding: 40px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 2.4rem; }
+    
+    nav a { 
+        margin: 0 15px; 
+        text-decoration: none; 
+        color: #004aad; 
+        font-weight: bold; 
+        display: inline-block; /* Garante que o padding e margin funcionem bem */
+        padding: 5px 0;
+    }
+
+    section { padding: 25px; max-width: 1000px; margin: auto; background: white; margin-top: 25px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.08); }
+    h2 { color: #004aad; }
+    
+    .button { 
+        display: inline-block; 
+        background: #e5a000; /* Cor otimizada para contraste */
+        color: #000; 
+        padding: 12px 18px; 
+        border-radius: 6px; 
+        text-decoration: none; 
+        font-weight: bold; 
+    }
+
+    ul { line-height: 1.8; }
+    footer { text-align: center; padding: 20px; margin-top: 30px; color: #666; }
+    .img-banner { width: 100%; border-radius: 10px; margin-top: 15px; }
+
+    /* Media Query para Dispositivos Móveis - OTIMIZAÇÃO RESPONSIVA */
+    @media (max-width: 600px) {
+        nav a {
+            display: block; /* Links empilhados verticalmente */
+            margin: 5px 0; /* Espaçamento entre os links empilhados */
+            border-bottom: 1px solid #f0f0f0; /* Separador sutil */
+        }
+        nav a:last-child {
+            border-bottom: none;
+        }
+        header {
+            padding: 30px 10px; /* Reduz o padding do header */
+        }
+        section {
+            padding: 20px; /* Reduz o padding da seção */
+            margin-top: 15px;
+        }
+    }
+  </style>
+  
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Haylton Travel",
+      "url": "https://seu-site.com.br",
+      "author": {
+        "@type": "Person",
+        "name": "Haylton José Lourenço",
+        "url": "https://www.instagram.com/haylton_jose_lourenco"
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Haylton Travel</h1>
+    <p>Experiências, dicas e recomendações para viajar melhor.</p>
+  </header>
+
+  <nav role="navigation">
+    <a href="#sobre">Sobre mim</a>
+    <a href="#comparacao">Comparação</a>
+    <a href="#dicas">Dicas de Viagem</a>
+    <a href="#recomendacao">Recomendação</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Olá! Sou Haylton José Lourenço, criador de conteúdo nas áreas de viagens, curiosidades e lifestyle. Compartilho recomendações úteis, análises e dicas para ajudar viajantes a tomarem decisões melhores — especialmente quando se trata de aluguel de carros.</p>
+    <img 
+      class="img-banner" 
+      src="https://images.unsplash.com/photo-1503376780353-7e6692767b70" 
+      alt="Carro de luxo para aluguel, dica do Haylton Travel"
+      loading="lazy" 
+    />
+  </section>
+
+  <section id="comparacao">
+    <h2>Comparação de Aluguel de Carros</h2>
+    <p>Usar plataformas confiáveis de comparação permite encontrar o melhor preço entre várias locadoras, garantindo economia e segurança. Sempre recomendo usar comparadores para evitar surpresas.</p>
+    <ul>
+      <li>Compare preços rapidamente</li>
+      <li>Escolha entre dezenas de locadoras</li>
+      <li>Evite taxas escondidas</li>
+      <li>Suporte garantido em caso de problemas</li>
+    </ul>
+  </section>
+
+  <section id="dicas">
+    <h2>Dicas Importantes para Alugar Carros</h2>
+    <ul>
+      <li>Sempre verifique o combustível e tire fotos antes de sair.</li>
+      <li>Leia a política de seguro e franquia.</li>
+      <li>Confirme a necessidade de cartão de crédito.</li>
+      <li>Pesquise avaliações da locadora.</li>
+      <li>Evite retirar o carro tarde da noite (taxas extras).</li>
+    </ul>
+    <img 
+      class="img-banner" 
+      src="https://images.unsplash.com/photo-1504215680853-026ed2a45def" 
+      alt="Estrada deserta, ideal para dicas de road trip e aluguel de carros" 
+      loading="lazy"
+    />
+  </section>
+
+  <section id="recomendacao">
+    <h2>Recomendação Principal</h2>
+    <p>Para encontrar os melhores preços e reservar com confiança, recomendo esta plataforma internacional:</p>
+    <a class="button" href="#" target="_blank" aria-label="Link para plataforma de reserva de carros recomendada">🔗 Reservar carro agora</a>
+    <p style="font-size: 14px; color: #777;">(O link será atualizado após a aprovação do programa de afiliados.)</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Fale comigo nas minhas redes sociais:</p>
+    <address>
+        <ul>
+          <li>TikTok: <a href="https://www.tiktok.com/@hayltonsousa778" target="_blank" rel="noopener noreferrer">@hayltonsousa778</a></li>
+          <li>YouTube: <a href="https://www.youtube.com/@hayltonsousa6999" target="_blank" rel="noopener noreferrer">Canal oficial</a></li>
+          <li>Instagram: <a href="https://www.instagram.com/haylton_jose_lourenco" target="_blank" rel="noopener noreferrer">@haylton_jose_lourenco</a></li>
+          <li>Email: <a href="mailto:hayltonsousa1@gmail.com"><strong>hayltonsousa1@gmail.com</strong></a></li>
+          <li>WhatsApp: <a href="tel:+351927953543"><strong>+351 927953543</strong></a></li>
+        </ul>
+    </address>
+  </section>
+
+  <footer>
+    <p>© 2025 · Site profissional de recomendações de viagens</p>
+  </footer>
+</body>
+</html>
